@@ -76,6 +76,14 @@ body::before {
     line-height: 1;
 }
 
+.main-title .highlight-number {
+    background: linear-gradient(135deg, var(--text-accent), var(--green-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.6));
+}
+
 .sub-title {
     font-size: clamp(1.5rem, 4vw, 3rem);
     font-weight: 700;
